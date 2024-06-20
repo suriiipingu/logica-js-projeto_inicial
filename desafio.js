@@ -50,12 +50,12 @@
 // while(true){ //Iniciar um loop
 //     let numero = prompt('Digite um número e veja sua sorte');
 
-// if(numero >=100){
-//     alert('Parabéns, você venceu!');
-//     break; //Sair do loop
-// }else{
-//     alert('Tente novamente para ganhar!');
-// }
+    // if(numero >=100){
+    //     alert('Parabéns, você venceu!');
+    //     break; //Sair do loop
+    // }else{
+    //     alert('Tente novamente para ganhar!');
+    // }
 // }
 
 //DESAFIO 4
@@ -67,3 +67,42 @@
 // let nomeUsuario = prompt('Digite seu nome');
 
 // alert(`Seja bem-vindo(a) ${nomeUsuario}!`);
+
+
+
+//Loops e tentativas
+
+//DESAFIO 1
+// let contador = 1;
+
+// while(contador != 10){
+//     console.log(`O número atual é ${contador}`);
+//     contador++;
+// }
+
+//DESAFIO 2
+// let contador = 10;
+
+// while(contador != 0){
+//     console.log(`O número atual é ${contador}`);
+//     contador--;
+// }
+
+//DESAFIO 3
+// let numeroUsuario = parseInt(prompt('Digite um número'));
+
+// while(numeroUsuario != 0){
+//     alert(`A contagem está em: ${numeroUsuario}`);
+//     numeroUsuario--
+// }
+// alert(`AEEEE!`);
+
+//DESAFIO 4
+// let numero = parseInt(prompt('Digite um número'));
+// let i = 0;
+
+// while(numero != i){
+//     alert(`A contagem está em: ${i}`);
+//     i++;
+// }
+// alert('Feliz ano novo!!');
